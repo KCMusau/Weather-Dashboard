@@ -1,0 +1,54 @@
+*{
+    background-color: rgb(241, 255, 255);
+}
+h1, h2{
+    color: rgb(45, 0, 206);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    
+}
+input {
+    text-transform: capitalize;
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(0, 89, 148);
+    padding: 10px;
+}
+
+
+.col1 {
+ 
+    border: 3px solid rgb(0, 89, 148);
+    padding: 10px;
+}
+
+
+.col2 {
+  
+    border: 3px rgb(0, 89, 148);
+    padding: 10px;
+}
+.current{
+  
+    border: 3px solid rgb(0, 89, 148);
+    padding: 10px;
+
+}
+.weather {
+  
+    border: 3px solid rgb(0, 89, 148);
+    padding: 10px;
+
+}
+
+.button{
+    background-color: rgb(0, 2, 134);
+    color: aliceblue;
+}
+#week{
+
+    border: 3px solid rgb(0, 89, 148);
+    padding: 10px;
+}

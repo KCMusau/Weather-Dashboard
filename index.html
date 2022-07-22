@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body>
+    <div id="main" class="container"></div>
+        <h1> Weather Dashboard</h1>
+        <h2 id="city">Chicago</h2>
+      </div>
+
+      <main>
+        <div class="col1">
+            <h4> Location Search</h4>
+            <input list="search-history" type="text" value="Chicago" id="search-input"><button class="button" onclick="search()">Search</button>
+            <datalist id="search-history">
+              
+            </datalist>
+            <div class="history"></div>
+            </div>
+        </div>
+
+        <div class="col2">
+            <div class="current">
+              <div>Temperature: <span id="temp"></span></div>
+              <div>Wind: <span id="wind"></span></div>
+              <div>Humidity: <span id="humidity"></span></div>
+              <div>Uv Index: <span id="uv_index"></span></div>
+            </div>
+            <div class="weather">
+                <h5>5-Day Forecast:</h5>
+                <div id="week">
+                  <!-- Placeholder for data-->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+
+  </html>
